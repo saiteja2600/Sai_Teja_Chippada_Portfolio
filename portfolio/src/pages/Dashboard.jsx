@@ -101,8 +101,10 @@ class Dashboard extends Component {
             transition={{ delay: 1.4 }}
           >
             <button className="btn-primary">
-              View Projects
-              <FaArrowRight />
+              <Link to="/projects" className="btn-primary">
+                <span>View Projects</span>
+                <FaArrowRight />
+              </Link>
             </button>
 
             <div className="resume-dropdown">
